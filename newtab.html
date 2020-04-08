@@ -2,10 +2,25 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!-- viewport meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- pull in local jquery file -->
+    <script src="thirdparty/jquery-3.4.1.min.js" charset="utf-8"></script>
+    <!-- run app script -->
     <script src="app.js" charset="utf-8"></script>
-    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <title>HomeTab</title>
   </head>
   <body>
-
+    <div class="container">
+      <div class="searchBar">
+        <h1>Random Quote</h1>
+        <div class="retrievedQuote">
+          <p id="quoteText"></p>
+          <h3 id="quoteAuthor"></h3>
+        </div>
+        <!-- <button type="button" name="button" id="goButton">New Quote</button> -->
+      </div>
+    </div>
   </body>
 </html>
